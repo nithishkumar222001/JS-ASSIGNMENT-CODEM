@@ -1,0 +1,25 @@
+body {
+  background: url(bracket.jpeg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 95%;
+  background-size: cover;
+}
+#main {
+  position: absolute;
+  top: 50%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#validate {
+  padding: 10px 15px;
+  font-size: 20px;
+  font-style: bold;
+}
+#validate:hover {
+  background-color: white;
+  box-shadow: 0 0 10px white;
+  border-radius: 5px;
+  border-color: white;
+}

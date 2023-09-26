@@ -1,0 +1,43 @@
+body {
+  background: url(USA.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.main {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#submitBtn {
+  padding: 8px 12px 8px 12px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+#submitBtn:hover {
+  background-color: white;
+  box-shadow: 0 0 10px white;
+  color: black;
+}
+#resetBtn {
+  padding: 8px 12px 8px 12px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+#resetBtn:hover {
+  background-color: white;
+  box-shadow: 0 0 10px white;
+  color: black;
+}
+#zipcodeInput {
+  padding: 8px 15px 8px 15px;
+  border-radius: 3px;
+  border-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}

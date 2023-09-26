@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Package Delivery Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="heading"><h1>Package Delivery Calculator</h1></div>
+    <div id="main">
+      <label for="startLocation">Start Location:</label>
+      <select id="startLocation">
+        <option value="Tirunelveli">Tirunelveli</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Tichy">Trichy</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Salem">Salem</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Coimbatore">Coimbatore</option></select
+      ><br />
+
+      <label for="endLocation">End Location:</label>
+      <select id="endLocation">
+        <option value="Madurai">Madurai</option>
+        <option value="Trichy">Trichy</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Salem">Salem</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Bangalore">Bangalore</option></select
+      ><br />
+
+      <label for="startDate">Start Date:</label>
+      <input type="date" id="startDate" /><br /><br />
+
+      <button onclick="calculateDeliveryDate()">Calculate</button><br /><br />
+
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
